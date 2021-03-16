@@ -49,4 +49,4 @@ app.post('/api/articles/:name/add-comment', async (req, res) => withDb(async db 
 
 app.get('*', () => res.sendFile(path.join(`${__dirname}/build/index.html`)))
 
-app.listen(8000, () => console.log('Server listening on port 8000'))
+app.listen(3001, () => console.log('Server listening on port 3001'))
